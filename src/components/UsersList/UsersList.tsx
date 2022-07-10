@@ -59,12 +59,11 @@ const UsersList: FC<IProps> = ({ users, setUsers }) => {
       )}
       {users.map((user) => {
         return (
-          <div key={user.id} className="col-12 col-lg-6 mb-1">
+          <div key={user.id} className="col-12 col-lg-6 mb-3">
             <div className="position-relative card p-2 d-flex flex-sm-row align-items-center">
               <img
-                width={120}
-                height={120}
                 className="img-fluid rounded rounded-circle img-thumbnail ms-md-auto me-2"
+                style={{maxHeight:"120px",width:"120px",height:"120px",maxWidth:"120px"}}
                 src={user.img_url}
                 alt={user.fullName}
               />
