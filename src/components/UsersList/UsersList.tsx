@@ -1,4 +1,4 @@
-import { Dispatch, FC, FormEvent, SetStateAction, useState } from "react";
+import { Dispatch, FC, FormEvent, ReactNode, SetStateAction, useState } from "react";
 import { IUsers } from "../UsersApp/UsersApp";
 import styles from "./userList.module.css";
 import { Modal, Button, Form } from "react-bootstrap";
@@ -10,7 +10,7 @@ interface IProps {
   setUsers: Dispatch<SetStateAction<IUsers[]>>;
 }
 
-const UsersList: FC<IProps> = ({ users, setUsers }) => {
+const UsersList: FC<IProps> = ({ users, setUsers}) => {
   const [isShow, setIsShow] = useState<boolean>(false);
   const [userDetail, setUserDetail] = useState<IUsers>({
     id:0,
@@ -19,7 +19,6 @@ const UsersList: FC<IProps> = ({ users, setUsers }) => {
     img_url: "",
     bio: "",
   });
-
   const handleClose = () => {
     setIsShow(false);
   }

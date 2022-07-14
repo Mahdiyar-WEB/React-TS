@@ -18,7 +18,7 @@ const UsersApp = () => {
       fullName: "مهدیار مروی",
       age: 20,
       img_url:
-        "https://media-exp1.licdn.com/dms/image/D4E35AQFQIv0Kxf3Vqg/profile-framedphoto-shrink_400_400/0/1655932982246?e=1657710000&v=beta&t=qtReuAHe7cY9q6I4HOQG-ob4UPc_QB0MCZu80f-FV6A",
+        "https://avatars.githubusercontent.com/u/92209615?s=400&u=3c60f1c618936d5cac10177ac76de4b92d8343bd&v=4",
         bio:"برنامه نویس و طراح وبسایت"
     },
   ]);

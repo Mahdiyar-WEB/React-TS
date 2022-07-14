@@ -4,6 +4,7 @@
 /node_modules
 /help_basic
 /src/learn
+/src/components/dropZone
 /.pnp
 .pnp.js
 
